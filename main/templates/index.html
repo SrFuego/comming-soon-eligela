@@ -1,0 +1,39 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<head>
+   <title>Proximamente</title>
+    <meta charset="utf-8">
+    <!-- Responsiveness -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{% static 'css/main.css' %}" />
+</head>
+<body class="loading">
+  <div class="container load">
+    <section class="banner">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="caja-prox">
+              <div class="texto">
+                <div class="logo"><img src="{% static 'img/logo.png' %}" /></div>
+                <p>"Prepárate para descubrir aquello que tanto te apasiona y elegir mejor tu carrera profesional"</p>
+                <p>lanzamiento: 8 de Octubre 2015</p>
+              </div>
+            </div>
+            <div class="siguenos">
+              <h5>Siguenos en facebook</h5>
+              <h5>  : <a href="https://www.facebook.com/elige.la.comunidad?fref=ts">elige.la</a></h5>
+            </div>
+          </div>
+          <div class="col-md-6"></div>
+        </div>
+      </section>
+  </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="{% static 'js/mi-script.js' %}"></script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+  </body>
+</html>
